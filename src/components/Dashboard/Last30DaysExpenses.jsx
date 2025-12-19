@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { prepareExpenseBarChartData } from "../../utils/helper";
-import CustomBarChart from "../Charts/CustomBarChart";
+import CustomBarChart from "../charts/CustomBarChart";
 
 const Last30DaysExpenses = ({ data = [] }) => {
   // ✅ Derived data → useMemo (NO setState loop)
